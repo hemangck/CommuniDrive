@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CommuniDrive"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".women_safety_chat"
+            android:exported="false" />
+        <activity
+            android:name=".accident_chat"
+            android:exported="false" />
+        <activity
+            android:name=".puncture_chat"
+            android:exported="false" />
+        <activity
+            android:name=".traffic_chat"
+            android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBrin0_YeyDdW1tpZbyDvJU7VZUSnadKYA" />
+
+        <activity
+            android:name=".home_page_2"
+            android:exported="false" />
+        <activity
+            android:name=".home_page"
+            android:exported="false" />
+        <activity
+            android:name=".chat"
+            android:exported="false" />
+        <activity
+            android:name=".register_page"
+            android:exported="false" />
+        <activity
+            android:name=".login_page"
+            android:exported="false"/>
+
+        <activity
+            android:name=".splash_screen"
+            android:exported="true" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+
+</manifest>

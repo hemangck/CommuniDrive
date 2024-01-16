@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "181471515278",
+    "firebase_url": "https://communidrive-a8cbb-default-rtdb.firebaseio.com",
+    "project_id": "communidrive-a8cbb",
+    "storage_bucket": "communidrive-a8cbb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181471515278:android:427b547a7c1ccc6e7e6fdf",
+        "android_client_info": {
+          "package_name": "com.example.communidrive"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6qiX1ETHzIR7GyZKLDJOK7jNyiUmlTSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
