@@ -27,10 +27,6 @@
             android:name=".traffic_chat"
             android:exported="false" />
 
-        <meta-data
-            android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyBrin0_YeyDdW1tpZbyDvJU7VZUSnadKYA" />
-
         <activity
             android:name=".home_page_2"
             android:exported="false" />
